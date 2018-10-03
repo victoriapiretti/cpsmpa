@@ -1,19 +1,25 @@
 div {
-    background-color: lightsalmon;
+    background-color: hsl(hue, saturation, lightness);
     border-width: 2px;
-    border-style: groove;
-    
+    border-style: hidden;
 }
 h1{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: ghostwhite;
+    color:blue;
 }
 
 #paragrafo1 {
     color:blueviolet;
+    background-color: lightpink;
+    margin-left: 150px;
+    margin-right: 150px;
 }
+
 #paragrafo2 {
     color: darkmagenta;
+    background-color: lightskyblue;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
 { background-color: darksalmon;
