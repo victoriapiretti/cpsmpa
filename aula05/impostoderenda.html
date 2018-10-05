@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>
+            Javacript
+        </title>
+    </head>
+    <body>
+        <div id="resultado"></div>
+        <script>
+        document.write("Ola, mundo");
+
+        var salario = 6000;
+        var alicota;
+        if (salario <= 1903.98) {
+            alicota=0;
+        }
+        if (salario > 2000) {
+            alicota=10;
+        }
+        else if (salario > 2000) {
+            alicota=20;
+        }
+        if (salario > 3000) {
+            alicota=30
+        }
+        if (salario > 4000) {
+            alicota=40;
+        }
+        var impostoAPagar = ((salario*alicota)/100);
+        document.getElementById("resultado").innerHTML = impostoAPagar;
+        </script>
+    </body>    
+</html>
