@@ -88,6 +88,8 @@ function registrarNomeEmpresa() {
             console.log(resultado);
             statusTransacao.innerHTML = "Transação enviada ao Blockchain Ethereum. Faça a monitoração pelo hash: " + resultado;
         }
+    });
+}
 		
 function registrarNomeAgente() {
 	var statusTransacao = document.getElementById("statusTransacaoNomeAgente");
