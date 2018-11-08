@@ -90,10 +90,3 @@ function registrarNomeEmpresa() {
         }
     });
 }
-
-    © 2018 GitHub, Inc.
-    Terms
-    Privacy
-    Security
-    Status
-    Help
